@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  sqlserver-ssh:
+    build: .
+    container_name: sqlserver-ssh
+    hostname: sqlserver-ssh
+    ports:
+      - "1433:1433"
+      - "2222:22"
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=1234
+      - MSSQL_PID=Developer
+    volumes:
+      - sql_data:/var/opt/mssql
+      - ssh_data:/etc/ssh
+    networks:
+      - sql-network
+
+volumes:
+  sql_data:
+  ssh_data:
+
+networks:
+  sql-network:
+    driver: bridge
