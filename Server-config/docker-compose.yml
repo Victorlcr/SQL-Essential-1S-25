@@ -1,27 +1,37 @@
 version: '3.8'
 
 services:
-  sqlserver-ssh:
-    build: .
-    container_name: sqlserver-ssh
-    hostname: sqlserver-ssh
+  ssh-server:
+    image: rastasheep/ubuntu-sshd:latest  # Imagem com o servidor SSH
+    container_name: ssh-server
     ports:
-      - "1433:1433"
-      - "2222:22"
+      - "22:22"  # Acessar o container via SSH na porta 22 do host
+    environment:
+      - SSH_PASSWORD=senha_fortesecreta  # Senha para login SSH (alterar para um valor seguro)
+      - USERNAME=admin  # Nome de usuário SSH
+    volumes:
+      - ./ssh_config:/etc/ssh  # Configurações do SSH, pode customizar conforme necessário
+    networks:
+      - my_network
+
+  sql-server:
+    image: mcr.microsoft.com/mssql/server:2022-latest  # Imagem oficial do SQL Server
+    container_name: sql-server
     environment:
       - ACCEPT_EULA=Y
-      - MSSQL_SA_PASSWORD=1234
-      - MSSQL_PID=Developer
+      - MSSQL_SA_PASSWORD=123  # Senha para o usuário sa (alterar para um valor seguro)
+      - MSSQL_PID=Express
+    ports:
+      - "1433:1433"  # Porta padrão do SQL Server
     volumes:
-      - sql_data:/var/opt/mssql
-      - ssh_data:/etc/ssh
+      - sql_data:/var/opt/mssql  # Volume persistente para os dados do SQL Server
     networks:
-      - sql-network
+      - my_network
+    restart: always
 
 volumes:
-  sql_data:
-  ssh_data:
+  sql_data:  # Volume persistente para dados do SQL Server
 
 networks:
-  sql-network:
+  my_network:  # Rede compartilhada entre os containers
     driver: bridge
