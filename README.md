@@ -1,4 +1,4 @@
-# SQL Essencial - Oficina de Banco de Dados (1º Semestre de 2025)
+# SQL Essencial - Oficina de Banco de Dados (1º Semestre 2025)
 
 ## Descrição:
 
@@ -7,7 +7,7 @@
 ## Como acessar os materiais?
 
 - Todos os conteúdos estarão presentes neste repositório (scripts criados em sala e exercícios) e no Teams.
-- 📄 Acesse os script de conteúdo e exercícios no link a seguir: [Script da Aula 2](./aula2/script_aula2_rep.sql)
+- 📄 Acesse o script base do conteúdo e exercícios da aula a seguir: [Script da Aula 2](./aula2/script_aula2_rep.sql)
 
 ## Contato:
 
@@ -17,6 +17,6 @@
 
 ## Materiais adicionais:
 
-- Curso básico de SQL - Hashtag Treinamentos: https://youtube.com/playlist?list=PLpdAy0tYrnKw_F8v6kkEXTeyE33Navv-K&si=O_6i8BwLv84IY9wU
-- Livro: Sistemas de Banco de Dados (Ramez Elmasri,  Shamkant B. Navathe)
-
+- 📺 Curso básico de SQL - Hashtag Treinamentos: https://youtube.com/playlist?list=PLpdAy0tYrnKw_F8v6kkEXTeyE33Navv-K&si=O_6i8BwLv84IY9wU
+- 📖 Livro: Sistemas de Banco de Dados - Ramez Elmasri,  Shamkant B. Navathe
+- 🎧 Podcast: TechGuide: SQL - Hipsters Ponto Tech #356
