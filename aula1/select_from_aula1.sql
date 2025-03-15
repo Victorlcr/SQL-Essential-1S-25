@@ -1,7 +1,7 @@
 /* Nas consultas em Banco de Dados usamos letras maíusculas para palavras
 reservadas da linguaguem (SELECT, FROM, WHERE, ETC...), assim, a declaração pode ser visualizada mais facilmente */
 
-USE Empresa
+USE Empresa -- Define qual banco de dados estaremos utilizando
 
 -- Seleciona todas as colunas e linhas da tabela Clientes
 
