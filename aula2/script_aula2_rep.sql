@@ -7,13 +7,7 @@ SELECT * FROM Funcionarios
 SELECT * FROM Fornecedores
 
 SELECT * FROM Produtos
-
-SELECT * FROM Categorias
-
-SELECT * FROM Pedidos
-
-SELECT * FROM DetalhesPed
-
+  
 -- WHERE
 
 SELECT * FROM Clientes
