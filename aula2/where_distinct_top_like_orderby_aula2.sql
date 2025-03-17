@@ -64,9 +64,15 @@ WHERE Preco BETWEEN 18 AND 22;
 -- ELIMINANDO DUPLICATAS COM DISTINCT
 
 -- O operador DISTINCT retorna apenas valores únicos, eliminando repetições.
--- Neste caso, retorna a lista de países distintos dos clientes.
-SELECT DISTINCT Pais
-FROM Clientes;
+-- Neste caso, retorna a lista de cargos distintos dos clientes.
+SELECT DISTINCT Cargo FROM Funcionarios
+
+-- Neste caso, retorna os registros de agrupamento distinto de cargos e países.
+SELECT DISTINCT Cargo, Pais FROM Funcionarios
+
+-- Neste caso, retorna as quantidades de unidades destintas.
+SELECT DISTINCT Unidades
+FROM Produtos -- IRÁ RETORNAR UM VALOR NULL TAMBÉM
 
 -- BUSCAS FLEXÍVEIS COM LIKE
 
@@ -76,11 +82,15 @@ FROM Clientes;
 
 -- Seleciona clientes cujo nome começa com "An".
 SELECT * FROM Clientes
-WHERE Nome LIKE 'An%';
+WHERE Nome LIKE 'A%';
 
 -- Seleciona clientes cujo nome termina com "a".
 SELECT * FROM Clientes
 WHERE Nome LIKE '%a';
+
+-- Seleciona clientes de um cep que começa com 054.
+SELECT * FROM Clientes
+WHERE Cep LIKE '054%';
 
 -- Seleciona clientes cujo nome começa com "G" e termina com "a".
 SELECT * FROM Clientes
@@ -105,14 +115,14 @@ WHERE Nome LIKE 'C__t%';
 
 -- O operador ORDER BY permite ordenar os resultados da consulta com base em uma coluna específica.
 
+-- Ordena os produtos pela descrição em ordem crescente, neste caso, de A-Z
+-- O SQL assume ASC (crescente) como padrão caso não seja especificado.
+SELECT * FROM Produtos
+ORDER BY Descr;
+
 -- Ordena os produtos pelo preço em ordem decrescente (do maior para o menor).
 SELECT * FROM Produtos
 ORDER BY Preco DESC; -- DESC significa descrescente.
-
--- Ordena os clientes pelo nome em ordem crescente (A-Z).
--- O SQL assume ASC (crescente) como padrão caso não seja especificado.
-SELECT * FROM Clientes
-ORDER BY Nome;
 
 -- Ordena os pedidos pela data em ordem decrescente (do mais recente para o mais antigo).
 SELECT * FROM Pedidos
