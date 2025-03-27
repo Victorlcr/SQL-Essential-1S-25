@@ -38,7 +38,7 @@ INSERT INTO Aluno (Nome, Sobrenome, CodCurso, DataNasc)
 VALUES('Tobias', 'Almeida', 1, '2005-08-10')
 
 INSERT INTO Aluno (Nome, Sobrenome, CodCurso, DataNasc)
-VALUES('Ana', 'Silva', 2, '2005-08-11')
+VALUES('Olivia', 'Silva', 2, '2005-08-11')
 
 UPDATE Curso
 SET NomeCurso = 'GTI'
