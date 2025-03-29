@@ -9,7 +9,7 @@
 Script de criação do Banco de Dados: [Tabelas para praticar consultas](./Script-EMPRESA.sql)
 - Todos os conteúdos estarão presentes neste repositório (scripts criados em sala e exercícios) e no Teams.
 - 📄 Acesse o conteúdo visto no 1º dia: [SELECT, FROM](./aula1/)
-- 📄 Acesse o conteúdo visto no 2º dia: [WHERE, LIKE e DISTINCT](./aula2/)
+- 📄 Acesse o conteúdo visto no 2º dia: [WHERE, LIKE, DISTINCT, TOP e ORDER BY](./aula2/)
 - 📄 Acesse o conteúdo visto no 3º dia: [CREATE, INSERT, UPDATE e DELETE](./aula3/)
 
 ## Como conectar ao Banco de Dados?
