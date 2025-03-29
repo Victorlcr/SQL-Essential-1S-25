@@ -6,7 +6,7 @@ Tipo de servidor: **Mecanismo de banco de dados**
 
 Server name: **20.119.97.113,1433**
  
-Autenticação: **SQL Server Authentication**
+Autenticação: **SQL Server Authentication** | **Autenticação do SQL Server**
 
 Login: **SA**
 
