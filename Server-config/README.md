@@ -2,7 +2,7 @@
 
 ## Credenciais de acesso
 
-Tipo de servidor: Mecanismo de banco de dados
+Tipo de servidor: **Mecanismo de banco de dados**
 
 Server name: **20.119.97.113,1433**
  
