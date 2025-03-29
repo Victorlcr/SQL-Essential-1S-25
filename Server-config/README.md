@@ -12,6 +12,8 @@ Login: **SA**
 
 Senha: **SQL@1S_25**
 
+Criptografia: **Opcional**
+
 ## Atividade proposta
 
 Inserir eventos que vão ocorrer durante os dias que não vai ocorrer a oficina (28/03 até 16/04), e realizar Update dos eventos que já passaram alterando seu valor na coluna *Disponivel* para 0.
