@@ -7,7 +7,9 @@
 ## Como acessar os materiais?
 
 Tutorial de instalação do SQL Server e SQL Server Management Studio: [Youtube: SSMS - 2022 Download e Instalação](https://www.youtube.com/watch?v=tZs8ZPMvNzM)
+
 Script de criação do Banco de Dados: [Tabelas para praticar consultas](./Script-EMPRESA.sql)
+
 Tutorial de como abrir o script e criar o banco de dados, para realizar os exercicios das aulas: [Como baixar os arquivos das aulas e exercícios do workshop SQL Essencial.](https://www.youtube.com/watch?v=jCjeDQikpac)
 - Todos os conteúdos estarão presentes neste repositório (scripts criados em sala e exercícios) e no Teams.
 - 📄 Acesse o conteúdo visto no 1º dia: [SELECT, FROM](./aula1/)
