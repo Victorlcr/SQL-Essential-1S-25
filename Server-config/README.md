@@ -8,7 +8,7 @@ Server name: **20.119.97.113,1433**
  
 Autenticação: **SQL Server Authentication** | **Autenticação do SQL Server**
 
-Login: **SA**
+Login: **aluno**
 
 Senha: **SQL@1S_25**
 
