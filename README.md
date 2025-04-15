@@ -31,3 +31,4 @@ Tutorial de como abrir o script e criar o banco de dados, para realizar os exerc
 - 📺 Videoaula: [Curso básico de SQL](https://youtube.com/playlist?list=PLpdAy0tYrnKw_F8v6kkEXTeyE33Navv-K&si=O_6i8BwLv84IY9wU) - Hashtag Treinamentos
 - 🎧 Podcast: [TechGuide: SQL](https://open.spotify.com/episode/0VKVgHlVtkfWHRQ9xfDiYX) - Hipsters Ponto Tech #356
 - 📖 Livro: [Sistemas de Banco de Dados](https://dn720003.ca.archive.org/0/items/sistemas-de-banco-de-dados-ramez-elmasri-shamkant-b.-navathe-z-lib.org/Sistemas%20De%20Banco%20De%20Dados%20%28Ramez%20Elmasri%2C%20Shamkant%20B.%20Navathe%29%20%28z-lib.org%29.pdf) - Elsmari, R., Navathe, Shamkant B.
+- 🧩 Jogo: [SQL Murder Mystery](https://mystery.knightlab.com/) - Você consegue descobrir quem é o culpado?
