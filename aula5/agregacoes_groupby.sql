@@ -93,5 +93,10 @@ WHERE Pais = 'França';
 
 -- 1. Quantos fornecedores nós temos em cada país?
 
+SELECT Pais, COUNT(*) AS qtd_funcionarios FROM Fornecedores
+GROUP BY Pais
+
 -- 2. Qual foi o frete médio que cada cliente teve que pagar pelos seus pedidos?
 
+SELECT CodCli, AVG(Frete) AS frete_medio FROM Pedidos
+GROUP BY CodCli
