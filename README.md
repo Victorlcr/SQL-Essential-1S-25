@@ -15,6 +15,7 @@ Tutorial de como abrir o script e criar o banco de dados, para realizar os exerc
 - 📄 Acesse o conteúdo visto no 1º dia: [SELECT, FROM](./aula1/)
 - 📄 Acesse o conteúdo visto no 2º dia: [WHERE, LIKE, DISTINCT, TOP e ORDER BY](./aula2/)
 - 📄 Acesse o conteúdo visto no 3º dia: [CREATE, INSERT, UPDATE e DELETE](./aula3/)
+- 📄 Acesse o conteúdo visto no 4º dia: [O MISTÉRIO DO QUARTO 305](./aula4/)
 - 📄 Acesse o conteúdo visto no 5º dia: [COUNT, SUM, AVG, MIN, MAX e GROUPBY](./aula5/)
 
 ## Como conectar ao Banco de Dados?
