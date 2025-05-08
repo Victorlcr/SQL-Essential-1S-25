@@ -30,6 +30,40 @@ FROM Pedidos p
 INNER JOIN DetalhesPed d ON p.NumPed = d.NumPed
 WHERE d.Preco > 50 
 
+-- 🔎 Consulta com múltiplos INNER JOINs para unir 3 tabelas: Clientes, Pedidos e DetalhesPed
+
+SELECT 
+    c.Nome,        -- Nome do cliente (vem da tabela Clientes)
+    d.Preco,       -- Preço do produto no pedido (vem da tabela DetalhesPed)
+    d.Qtde,        -- Quantidade do produto no pedido (também vem de DetalhesPed)
+    p.Frete        -- Valor do frete do pedido (vem da tabela Pedidos)
+FROM Clientes c              -- 🧱 Começamos a consulta pela tabela Clientes (apelidada como "c")
+
+-- 🔗 Primeiro INNER JOIN: relaciona Clientes com Pedidos
+-- Aqui, estamos dizendo: "Junte cada cliente aos pedidos que ele fez"
+-- A junção é feita usando a chave estrangeira CodCli que existe na tabela Pedidos
+INNER JOIN Pedidos p         
+    ON c.CodCli = p.CodCli   
+
+-- 🔗 Segundo INNER JOIN: relaciona Pedidos com DetalhesPed
+-- Agora, para cada pedido que já foi relacionado com seu respectivo cliente,
+-- vamos buscar os detalhes (como produtos, quantidades e preços) usando a coluna NumPed
+INNER JOIN DetalhesPed d     
+    ON p.NumPed = d.NumPed;
+
+-- ✅ Resultado final:
+-- A consulta retorna uma lista contendo:
+-- - O nome de cada cliente
+-- - O preço e a quantidade de cada item que ele comprou
+-- - E o frete cobrado no pedido
+--
+-- 🎯 Importante: Como estamos usando apenas INNER JOINs, só serão retornados:
+-- - Clientes que fizeram pedidos
+-- - Pedidos que têm ao menos um detalhe (item comprado)
+--
+-- Se um cliente não fez nenhum pedido, ou um pedido não tiver itens registrados em DetalhesPed,
+-- ele será ignorado no resultado.
+
 ----------------------------------------------------------------------------------------
 
 -- 🔗 LEFT JOIN (junção externa à esquerda)
