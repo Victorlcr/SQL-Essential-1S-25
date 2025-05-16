@@ -28,7 +28,7 @@ SELECT * FROM Produtos
 
 -- 4 - Densidade de pedidos por Pais (Quantidade de Pedidos)
 
--- 5 - Nome do Funcionario, faturamento e quantidade de pedidos de cada funcionário
+-- 5 - Nome do Funcionario, faturamento gerado pelo funcionário e quantidade de pedidos atendidos por ele
 
 -- 6 - Consulta opcional, usem a curiosidade e criatividade de vocês!
 
