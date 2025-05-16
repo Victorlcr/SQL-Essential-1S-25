@@ -1,6 +1,6 @@
 # Avisos importantes
 
-### 1 - A realização da terafa dos exercícios propostos no arquivo analises_projetofinal.sql é de extrema importância para a emissão do certificado, o prazo para a consluão é até a próxima quinta feira 22/05, podem enviar no Teams do Mateus ou do Victor.
+### 1 - A realização da terafa dos exercícios propostos no arquivo analises_projetofinal.sql é de extrema importância para a emissão do certificado. Não é necessário acertar os exercícios para obter o certificado, a participação de vocês já é o suficiente, então, sem pressão :). O prazo para a conclusão é até a próxima quinta feira 22/05, podem enviar no Teams do Mateus ou do Victor.
 
 ### 2 - Caso haja dúvidas a respeito do processo da criação do banco de dados através do script, revejam o vídeo que compartilhamos no início do workshop: [Como baixar os arquivos das aulas e exercícios do workshop SQL Essencial.](https://www.youtube.com/watch?v=jCjeDQikpac)
 
