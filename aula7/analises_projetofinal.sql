@@ -1,0 +1,36 @@
+USE Empresa
+
+SELECT * FROM Categorias
+SELECT * FROM Clientes
+SELECT * FROM DetalhesPed
+SELECT * FROM Fornecedores
+SELECT * FROM Funcionarios
+SELECT * FROM Pedidos
+SELECT * FROM Produtos
+
+/* ------------------------------------ */
+-- LINK DO GITHUB COM MATERIAL DAS AULAS: https://github.com/Victorlcr/SQL-Essential-1S-25
+/* ------------------------------------ */
+
+/* ------------------------------------
+-- COLOQUE ABAIXO O NOME COMPLETO DOS INTEGRANTES DO GRUPO
+
+
+
+------------------------------------ */
+
+
+-- 1 - Quantidade de faturamento geral
+
+-- 2 - Quantidade de pedidos geral
+
+-- 3 - Quantidade de clientes geral
+
+-- 4 - Densidade de pedidos por Pais (Quantidade de Pedidos)
+
+-- 5 - Nome do Funcionario, faturamento e quantidade de pedidos de cada funcionário
+
+-- 6 - Consulta opcional, usem a curiosidade e criatividade de vocês!
+
+
+
