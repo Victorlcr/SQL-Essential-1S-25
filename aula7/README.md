@@ -4,6 +4,6 @@
 
 ### 2 - O Download do arquivo diagrama_tabelas_Empresa.png é opcional, mas é interessante para vocês visualizarem a relação entre as tabelas, vai ajudar bastante na resolução dos exercícios.
 
-### 2 - Na nossa próxima e última aula, teremos a parte final do projeto, contamos com a presença de vocês :). 
+### 3 - Na nossa próxima e última aula, teremos a parte final do projeto, contamos com a presença de vocês :). 
 
 # Qualquer dúvida, entre em contato no Teams, estamos a disposição para esclarecer tudo o que for necessário. Abraço!
