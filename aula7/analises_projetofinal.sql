@@ -13,7 +13,7 @@ SELECT * FROM Produtos
 /* ------------------------------------ */
 
 /* ------------------------------------
--- COLOQUE ABAIXO O NOME COMPLETO DOS INTEGRANTES DO GRUPO
+-- COLOQUE ABAIXO O NOME COMPLETO DOS INTEGRANTES DO GRUPO, FAVOR SALVAR O ARQUIVO COMO sql_projeto_nome de um integrante do grupo
 
 
 
