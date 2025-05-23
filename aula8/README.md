@@ -4,7 +4,7 @@
 
 ### 2 - Para a realização do projeto de Power BI, basta acompanhar o vídeo: [Tutorial Power BI - SQL Essencial](https://youtu.be/pm_1a0gvZvo)
 
-### 3 - Para salvar o projeto de Power BI para envio no Teams, basta acompanhar o vídeo: [Como salvar o projeto do Power BI](https://youtu.be/cjKQSC9i3UE)
+### 3 - Para salvar o projeto de Power BI para envio no Teams até dia 29 (Quinta feira), basta acompanhar o vídeo: [Como salvar o projeto do Power BI](https://youtu.be/cjKQSC9i3UE)
 
 ### 4 - Caso haja dúvidas a respeito do processo da criação do banco de dados através do script, revejam o vídeo que compartilhamos no início do workshop: [Como baixar os arquivos das aulas e exercícios do workshop SQL Essencial.](https://www.youtube.com/watch?v=jCjeDQikpac)
 
