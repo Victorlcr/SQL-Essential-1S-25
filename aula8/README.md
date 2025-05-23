@@ -2,7 +2,7 @@
 
 ### 1 - A realização da tarefa dos exercícios propostos no arquivo [analises_projetofinal.sql.](../aula7/analises_projetofinal.sql) é de extrema importância para a emissão do certificado. Não é necessário acertar os exercícios para obter o certificado, a participação de vocês já é o suficiente, então, sem pressão :). O prazo para a conclusão é até dia 29 (Quinta feira), podem enviar no Teams do Mateus
 
-### 2 - Para a realização do projeto de Power BI, basta acompanhar o vídeo: [Tutorial Power BI - SQL Essencial](https://youtu.be/pm_1a0gvZvo)
+### 2 - Para a realização do projeto de Power BI, basta acompanhar o vídeo: [Tutorial Power BI - SQL Essencial](https://youtu.be/pm_1a0gvZvo), para um guia de instalação do Power BI, segue o vídeo a seguir: [Instalação do Power BI](https://www.youtube.com/watch?v=_pTF5mdpkTQ).
 
 ### 3 - Para salvar o projeto de Power BI para envio no Teams do Mateus até dia 29 (Quinta feira), basta acompanhar o vídeo: [Como salvar o projeto do Power BI](https://youtu.be/cjKQSC9i3UE). O envio deste projeto é muito importante para a obtenção do certíficado, não precisam se cobrar na elaboração, o importante é que vocês tenham contato com a ferramenta e consigam fazer um projetinho simples
 
